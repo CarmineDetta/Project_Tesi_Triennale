@@ -1,0 +1,86 @@
+{
+  "name": "healthcare_diabtes_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@comunica/query-sparql-solid": "^2.4.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@inrupt/lit-generated-vocab-common": "^0.3.11",
+    "@inrupt/solid-ui-react": "^3.0.0",
+    "@inrupt/vocab-common-rdf": "^1.0.5",
+    "@mui/icons-material": "^5.15.12",
+    "@mui/material": "^5.16.7",
+    "@mui/x-date-pickers": "^6.20.2",
+    "@rdfjs/data-model": "^2.0.2",
+    "@rdfjs/serializer-turtle": "^1.1.2",
+    "@tensorflow/tfjs": "^4.19.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "chart.js": "^4.4.2",
+    "chartjs-plugin-zoom": "^2.0.1",
+    "date-fns": "^3.6.0",
+    "dayjs": "^1.11.12",
+    "fhir": "^4.12.0",
+    "framer-motion": "^11.3.30",
+    "mui-datatables": "^4.3.0",
+    "rdflib": "^2.2.34-1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form-mui": "^7.0.0-beta.0",
+    "react-hooks-global-state": "^2.1.0",
+    "react-pwa-install-ios": "^1.4.3",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.5",
+    "react-use-websocket": "^4.8.1",
+    "recoil": "^0.7.7",
+    "url": "^0.11.3",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.8.0",
+    "workbox-background-sync": "^6.6.0",
+    "workbox-broadcast-update": "^6.6.0",
+    "workbox-cacheable-response": "^6.6.1",
+    "workbox-core": "^6.6.0",
+    "workbox-expiration": "^6.6.0",
+    "workbox-google-analytics": "^6.6.1",
+    "workbox-navigation-preload": "^6.6.0",
+    "workbox-precaching": "^6.6.0",
+    "workbox-range-requests": "^6.6.0",
+    "workbox-routing": "^6.6.0",
+    "workbox-strategies": "^6.6.0",
+    "workbox-streams": "^6.6.0"
+  },
+  "scripts": {
+    "start": "npm run start:frontend",
+    "start:frontend": "DISABLE_ESLINT_PLUGIN=true react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-modules": "^0.1.6"
+  }
+}
